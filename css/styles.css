@@ -18,46 +18,39 @@ header {
   position: sticky;
   top: -1px;
   z-index: 2; }
-
-.head-container {
-  width: 90%;
-  height: 80px;
-  margin: 0 auto;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center; }
-  .head-container h3 {
-    color: white;
-    font-size: 25px;
-    font-weight: bold; }
-
-.head-container ul {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  gap: 15px;
-  text-align: center;
-  width: 10%;
-  padding: 0;
-  background-color: var(--button-hover); }
-
-.head-container ul li a {
-  font-family: var(--font-principal);
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  font-size: 16px;
-  text-transform: uppercase; }
+  header .head-container {
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center; }
+    header .head-container h3 {
+      color: white;
+      font-size: 25px;
+      font-weight: bold; }
+    header .head-container ul {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      gap: 15px;
+      text-align: center;
+      width: 10%;
+      padding: 0; }
+    header .head-container li a {
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      font-size: 16px;
+      text-transform: uppercase; }
 
 .head-container ul li a:hover {
-  color: var(--text-hover);
   text-decoration: line-through; }
 
 .head-container ul li a:active {
-  color: var(--text-active);
   text-decoration: line-through; }
 
 #toggle,
@@ -111,39 +104,39 @@ header {
     width: 70%; }
 
 .trabajo1 {
-  background-image: url(/images/Portfolio1.png);
+  background-image: url(../images/Portfolio1.png);
   background-repeat: no-repeat; }
 
 .trabajo2 {
-  background-image: url(/images/Portfolio2.png);
+  background-image: url(../images/Portfolio2.png);
   background-repeat: no-repeat; }
 
 .trabajo3 {
-  background-image: url(/images/Portfolio3.jpg);
+  background-image: url(../images/Portfolio3.jpg);
   background-repeat: no-repeat; }
 
 .trabajo4 {
-  background-image: url(/images/Portfolio4.jpg);
+  background-image: url(../images/Portfolio4.jpg);
   background-repeat: no-repeat; }
 
 .trabajo5 {
-  background-image: url(/images/Portfolio5.jpg);
+  background-image: url(../images/Portfolio5.jpg);
   background-repeat: no-repeat; }
 
 .trabajo6 {
-  background-image: url(/images/Portfolio6.jpg);
+  background-image: url(../images/Portfolio6.jpg);
   background-repeat: no-repeat; }
 
 .trabajo7 {
-  background-image: url(/images/Portfolio7.jpg);
+  background-image: url(../images/Portfolio7.jpg);
   background-repeat: no-repeat; }
 
 .trabajo8 {
-  background-image: url(/images/Portfolio8.jpg);
+  background-image: url(../images/Portfolio8.jpg);
   background-repeat: no-repeat; }
 
 .trabajo9 {
-  background-image: url(/images/Portfolio9.jpg);
+  background-image: url(../images/Portfolio9.jpg);
   background-repeat: no-repeat; }
 
 .colorSuperior {
@@ -222,75 +215,75 @@ header {
     width: 70%; }
 
 .trabajo1 {
-  background-image: url(/images/Portfolio1.png);
+  background-image: url(../images/Portfolio1.png);
   background-repeat: no-repeat; }
 
 .trabajo2 {
-  background-image: url(/images/Portfolio2.png);
+  background-image: url(../images/Portfolio2.png);
   background-repeat: no-repeat; }
 
 .trabajo3 {
-  background-image: url(/images/Portfolio3.jpg);
+  background-image: url(../images/Portfolio3.jpg);
   background-repeat: no-repeat; }
 
 .trabajo4 {
-  background-image: url(/images/Portfolio4.jpg);
+  background-image: url(../images/Portfolio4.jpg);
   background-repeat: no-repeat; }
 
 .trabajo5 {
-  background-image: url(/images/Portfolio5.jpg);
+  background-image: url(../images/Portfolio5.jpg);
   background-repeat: no-repeat; }
 
 .trabajo6 {
-  background-image: url(/images/Portfolio6.jpg);
+  background-image: url(../images/Portfolio6.jpg);
   background-repeat: no-repeat; }
 
 .trabajo7 {
-  background-image: url(/images/Portfolio7.jpg);
+  background-image: url(../images/Portfolio7.jpg);
   background-repeat: no-repeat; }
 
 .trabajo8 {
-  background-image: url(/images/Portfolio8.jpg);
+  background-image: url(../images/Portfolio8.jpg);
   background-repeat: no-repeat; }
 
 .trabajo9 {
-  background-image: url(/images/Portfolio9.jpg);
+  background-image: url(../images/Portfolio9.jpg);
   background-repeat: no-repeat; }
 
 .trabajo10 {
-  background-image: url(/images/Portfolio10.jpg);
+  background-image: url(../images/Portfolio10.jpg);
   background-repeat: no-repeat; }
 
 .trabajo11 {
-  background-image: url(/images/Portfolio11.jpg);
+  background-image: url(../images/Portfolio11.jpg);
   background-repeat: no-repeat; }
 
 .trabajo12 {
-  background-image: url(/images/Portfolio12.jpg);
+  background-image: url(../images/Portfolio12.jpg);
   background-repeat: no-repeat; }
 
 .trabajo13 {
-  background-image: url(/images/Portfolio13.png);
+  background-image: url(../images/Portfolio13.png);
   background-repeat: no-repeat; }
 
 .trabajo14 {
-  background-image: url(/images/Portfolio14.png);
+  background-image: url(../images/Portfolio14.png);
   background-repeat: no-repeat; }
 
 .trabajo15 {
-  background-image: url(/images/Portfolio15.jpg);
+  background-image: url(../images/Portfolio15.jpg);
   background-repeat: no-repeat; }
 
 .trabajo16 {
-  background-image: url(/images/Portfolio16.jpg);
+  background-image: url(../images/Portfolio16.jpg);
   background-repeat: no-repeat; }
 
 .trabajo17 {
-  background-image: url(/images/Portfolio17.png);
+  background-image: url(../images/Portfolio17.png);
   background-repeat: no-repeat; }
 
 .trabajo18 {
-  background-image: url(/images/Portfolio18.jpg);
+  background-image: url(../images/Portfolio18.jpg);
   background-repeat: no-repeat; }
 
 .colorSuperior {
@@ -528,20 +521,16 @@ h3 {
     list-style: none;
     gap: 15px;
     text-align: center;
-    padding: 0;
-    background-color: var(--button-hover); }
+    padding: 0; }
   .head-container ul li a {
-    font-family: var(--font-principal);
     color: white;
     text-decoration: none;
     text-align: center;
     font-size: 16px;
     text-transform: uppercase; }
   .head-container ul li a:hover {
-    color: var(--text-hover);
     text-decoration: line-through; }
   .head-container ul li a:active {
-    color: var(--text-active);
     text-decoration: line-through; }
   #toggle,
   .menu-icon {

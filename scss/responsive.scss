@@ -37,11 +37,9 @@
     gap: 15px;
     text-align: center;
     padding: 0;
-    background-color: var(--button-hover);
   }
 
   .head-container ul li a {
-    font-family: var(--font-principal);
     color: white;
     text-decoration: none;
     text-align: center;
@@ -50,12 +48,10 @@
   }
 
   .head-container ul li a:hover {
-    color: var(--text-hover);
     text-decoration: line-through;
   }
 
   .head-container ul li a:active {
-    color: var(--text-active);
     text-decoration: line-through;
   }
 
