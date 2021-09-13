@@ -1,0 +1,394 @@
+@import "variables.scss";
+
+/*laptop 1024*/
+@media (max-width: 1024px) {
+  .fondoNav {
+    background-color: $color-primary;
+    color: $color-secundary;
+    h3 {
+      font-size: 27px;
+      text-align: center;
+    }
+    &__rrssNav {
+      display: none;
+    }
+  }
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100px;
+    width: 1024px;
+    ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 15px;
+      width: 1024px;
+      height: 50px;
+      margin-top: 10px;
+      color: $color-secundary;
+      li {
+        color: $color-secundary;
+      }
+    }
+    a {
+      color: $color-secundary;
+    }
+  }
+  .portadaAbout {
+    article {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 60px;
+      width: 82.8%;
+      img {
+        margin-top: 120px;
+      }
+    }
+  }
+  .informacionDetalle {
+    article {
+      width: 70%;
+    }
+  }
+
+  .tituloIndex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0 120px 0;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-image: url(../images/fondotitulo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 90%;
+      h3 {
+        color: white;
+        font-size: 23px;
+        font-weight: normal;
+        line-height: 70px;
+        text-align: center;
+        margin-top: 150px;
+      }
+    }
+    h1 {
+      color: white;
+      font-size: 60px;
+      font-weight: 900;
+      line-height: 65px;
+      text-align: center;
+    }
+  }
+  .portfolioIndex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    article {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: row;
+      padding-bottom: 70px;
+      width: 80%;
+    }
+  }
+  .colorSuperior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mensaje {
+    p {
+      opacity: 0;
+      font-size: 30px;
+      color: white;
+    }
+  }
+
+  .mensaje:hover {
+    p {
+      opacity: 1;
+      transition: opacity 1ms;
+    }
+  }
+
+  .mensaje:hover {
+    div {
+      background-color: rgba(0, 0, 0, 0.9);
+      transition: background-color 1ms;
+      width: 403px;
+      height: 316px;
+    }
+  }
+  .fondoFot {
+    &__menu {
+      display: none;
+    }
+    &__rrssFot {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: right;
+      list-style: none;
+      gap: 20px;
+      width: 38%;
+      i {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+/*Fin 1024px*/
+
+/* Mobile S*/
+@media (max-width: 320px) {
+  .rrssNav {
+    display: none;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      gap: 5px;
+      width: 10%;
+    }
+    h3 {
+      display: none;
+    }
+  }
+  .portadaAbout {
+    article {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 60px;
+      width: 100%;
+      img {
+        margin-top: 120px;
+        width: 313px;
+      }
+    }
+  }
+  .tituloIndex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0 120px 0;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-image: url(../images/fondotitulo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 90%;
+      h3 {
+        color: white;
+        font-size: 23px;
+        font-weight: normal;
+        line-height: 70px;
+        text-align: center;
+        margin-top: 150px;
+      }
+      a {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+    }
+    h1 {
+      color: white;
+      font-size: 26px;
+      font-weight: 900;
+      line-height: 33px;
+      text-align: center;
+    }
+  }
+  .trabajo1 {
+    background-image: url(/images/Portfolio1.png);
+    background-size: contain;
+  }
+
+  .trabajo2 {
+    background-image: url(/images/Portfolio2.png);
+    background-size: contain;
+  }
+
+  .trabajo3 {
+    background-image: url(/images/Portfolio3.jpg);
+    background-size: contain;
+  }
+
+  .trabajo4 {
+    background-image: url(/images/Portfolio4.jpg);
+    background-size: contain;
+  }
+
+  .trabajo5 {
+    background-image: url(/images/Portfolio5.jpg);
+    background-size: contain;
+  }
+
+  .trabajo6 {
+    background-image: url(/images/Portfolio6.jpg);
+    background-size: contain;
+  }
+
+  .trabajo7 {
+    background-image: url(/images/Portfolio7.jpg);
+    background-size: contain;
+  }
+
+  .trabajo8 {
+    background-image: url(/images/Portfolio8.jpg);
+    background-size: contain;
+  }
+
+  .trabajo9 {
+    background-image: url(/images/Portfolio9.jpg);
+    background-size: contain;
+  }
+
+  .trabajo10 {
+    background-image: url(/images/Portfolio10.jpg);
+    background-size: contain;
+  }
+
+  .trabajo11 {
+    background-image: url(/images/Portfolio11.jpg);
+    background-size: contain;
+  }
+
+  .trabajo12 {
+    background-image: url(/images/Portfolio12.jpg);
+    background-size: contain;
+  }
+
+  .trabajo13 {
+    background-image: url(/images/Portfolio13.png);
+    background-size: contain;
+  }
+
+  .trabajo14 {
+    background-image: url(/images/Portfolio14.png);
+    background-size: contain;
+  }
+
+  .trabajo15 {
+    background-image: url(/images/Portfolio15.jpg);
+    background-size: contain;
+  }
+
+  .trabajo16 {
+    background-image: url(/images/Portfolio16.jpg);
+    background-size: contain;
+  }
+
+  .trabajo17 {
+    background-image: url(/images/Portfolio17.png);
+    background-repeat: contain;
+  }
+
+  .trabajo18 {
+    background-image: url(/images/Portfolio18.jpg);
+    background-repeat: contain;
+  }
+
+  .portfolioIndex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    article {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: row;
+      width: 100%;
+    }
+  }
+  .mensaje {
+    height: 250px;
+    p {
+      padding-bottom: 50px;
+      text-align: center;
+      opacity: 0;
+      font-size: 20px;
+      font-weight: bolder;
+      color: white;
+    }
+  }
+  .colorSuperior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mensaje:hover {
+    p {
+      opacity: 1;
+      transition: opacity 1ms;
+    }
+    div {
+      background-color: rgba(0, 0, 0, 0.9);
+      transition: background-color 1ms;
+      width: 320px;
+      height: 250px;
+    }
+  }
+  .skills {
+    width: 250px;
+    margin: 150px auto;
+    color: $color-primary;
+    width: 80%;
+  }
+  .fondoFot {
+    &__menu {
+      display: none;
+    }
+    &__rrssFot {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      list-style: none;
+      gap: 20px;
+      width: 20%;
+      i {
+        font-size: 25px;
+      }
+    }
+  }
+}

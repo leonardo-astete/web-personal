@@ -1,0 +1,44 @@
+@import "variables.scss";
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+    width: 19%;
+    color: $color-secundary;
+    li {
+      color: $color-secundary;
+    }
+  }
+  a {
+    color: $color-secundary;
+    text-decoration: none;
+  }
+  h3 {
+    font-weight: bold;
+  }
+}
+
+.fondoNav {
+  background-color: $color-primary;
+  color: $color-secundary;
+  h3 {
+    font-size: 27px;
+    text-align: center;
+  }
+  &__rrssNav {
+    text-align: right;
+    i {
+      font-size: 20px;
+    }
+  }
+}

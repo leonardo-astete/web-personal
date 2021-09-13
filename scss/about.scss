@@ -1,0 +1,42 @@
+@import "variables.scss";
+
+.portadaAbout {
+  article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    width: 100%;
+    img {
+      margin-top: 200px;
+    }
+  }
+}
+
+.informacionDetalle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  width: 100%;
+  article {
+    width: 50%;
+    h3 {
+      justify-content: flex-start;
+      margin-bottom: 2px;
+      color: $color-primary;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 30px;
+      text-align: left;
+    }
+    h4 {
+      margin-bottom: 30px;
+      color: #292929;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 20px;
+    }
+  }
+}

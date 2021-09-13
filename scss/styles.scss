@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+@import "variables.scss";
+@import "nav.scss";
+@import "index.scss";
+@import "about.scss";
+@import "portfolio.scss";
+@import "softwares.scss";
+@import "contact.scss";
+@import "footer.scss";
+@import "responsive.scss";
