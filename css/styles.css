@@ -67,7 +67,7 @@ header {
 .tituloIndex {
   display: flex;
   flex-direction: column;
-  margin: 80px 0 120px 0;
+  margin: 0 0 100px 0;
   padding-top: 150px;
   padding-bottom: 100px;
   background-image: url(../images/fondotitulo2.png);
@@ -210,7 +210,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 100px;
   padding-bottom: 100px;
   width: 100%; }
   .portfolioIndex article {
@@ -561,7 +561,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 80px 0 120px 0;
+    margin: 0 0 120px 0;
     padding-top: 150px;
     padding-bottom: 50px;
     background-image: url(../images/fondotitulo2.png);
@@ -684,7 +684,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 80px 0 120px 0;
+    margin: 0px 0 50px 0;
     padding-top: 150px;
     padding-bottom: 50px;
     background-image: url(../images/fondotitulo2.png);
