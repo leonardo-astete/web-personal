@@ -405,10 +405,10 @@ p {
 
 form {
   margin: auto;
-  margin-top: 300px;
+  margin-top: 150px;
   margin-bottom: 60px;
   width: 30%;
-  height: 645px; }
+  height: 570px; }
   form label {
     color: #000000;
     font-size: 20px;
@@ -808,4 +808,43 @@ h3 {
     gap: 20px;
     width: 20%; }
     .fondoFot__rrssFot i {
-      font-size: 25px; } }
+      font-size: 25px; }
+  /*Contact*/
+  form {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 645px; }
+    form label {
+      color: #000000;
+      font-size: 20px;
+      font-weight: bold; }
+    form input[type="text"],
+    form input[type="email"] {
+      border-radius: 3px;
+      width: 100%;
+      height: 38px;
+      border: 1px solid #d1d1d1;
+      margin-bottom: 15px; }
+    form textarea {
+      border-radius: 5px;
+      width: 100%;
+      height: 100px;
+      border: 1px solid #d1d1d1; }
+    form select {
+      height: 25px;
+      width: 150px;
+      margin-bottom: 15px; }
+    form div input {
+      margin-top: 20px;
+      border-radius: 5px;
+      width: 100px;
+      background-color: black;
+      color: white; }
+    form div input[type="checkbox"] {
+      margin-left: 10px;
+      padding: auto;
+      border-radius: 3px;
+      width: 20px;
+      height: 20px; } }
