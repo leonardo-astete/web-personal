@@ -533,13 +533,14 @@
     article {
       display: flex;
       flex-wrap: wrap;
-      align-items: flex-start;
-      justify-content: flex-start;
+      align-items: center;
+      justify-content: center;
       flex-direction: row;
       width: 100%;
     }
   }
   .mensaje {
+    width: 320px;
     height: 250px;
     p {
       padding-bottom: 50px;
@@ -854,10 +855,10 @@
     article {
       display: flex;
       flex-wrap: wrap;
-      align-items: flex-start;
+      align-items: center;
       justify-content: flex-start;
       flex-direction: row;
-      width: 100%;
+      width: 75%;
     }
   }
   .mensaje {
@@ -1077,6 +1078,97 @@
       text-align: center;
     }
   }
+
+  .trabajo1 {
+    background-image: url(../images/Portfolio1.png);
+    background-size: contain;
+  }
+
+  .trabajo2 {
+    background-image: url(../images/Portfolio2.png);
+    background-size: contain;
+  }
+
+  .trabajo3 {
+    background-image: url(../images/Portfolio3.jpg);
+    background-size: contain;
+  }
+
+  .trabajo4 {
+    background-image: url(../images/Portfolio4.jpg);
+    background-size: contain;
+  }
+
+  .trabajo5 {
+    background-image: url(../images/Portfolio5.jpg);
+    background-size: contain;
+  }
+
+  .trabajo6 {
+    background-image: url(../images/Portfolio6.jpg);
+    background-size: contain;
+  }
+
+  .trabajo7 {
+    background-image: url(../images/Portfolio7.jpg);
+    background-size: contain;
+  }
+
+  .trabajo8 {
+    background-image: url(../images/Portfolio8.jpg);
+    background-size: contain;
+  }
+
+  .trabajo9 {
+    background-image: url(../images/Portfolio9.jpg);
+    background-size: contain;
+  }
+
+  .trabajo10 {
+    background-image: url(../images/Portfolio10.jpg);
+    background-size: contain;
+  }
+
+  .trabajo11 {
+    background-image: url(../images/Portfolio11.jpg);
+    background-size: contain;
+  }
+
+  .trabajo12 {
+    background-image: url(../images/Portfolio12.jpg);
+    background-size: contain;
+  }
+
+  .trabajo13 {
+    background-image: url(../images/Portfolio13.png);
+    background-size: contain;
+  }
+
+  .trabajo14 {
+    background-image: url(../images/Portfolio14.png);
+    background-size: contain;
+  }
+
+  .trabajo15 {
+    background-image: url(../images/Portfolio15.jpg);
+    background-size: contain;
+  }
+
+  .trabajo16 {
+    background-image: url(../images/Portfolio16.jpg);
+    background-size: contain;
+  }
+
+  .trabajo17 {
+    background-image: url(../images/Portfolio17.png);
+    background-repeat: contain;
+  }
+
+  .trabajo18 {
+    background-image: url(../images/Portfolio18.jpg);
+    background-repeat: contain;
+  }
+
   .portfolioIndex {
     display: flex;
     flex-direction: column;
@@ -1089,7 +1181,7 @@
       justify-content: flex-start;
       flex-direction: row;
       padding-bottom: 70px;
-      width: 80%;
+      width: 100%;
     }
   }
   .colorSuperior {
@@ -1098,6 +1190,8 @@
     align-items: center;
   }
   .mensaje {
+    width: 384px;
+    height: 300px;
     p {
       opacity: 0;
       font-size: 30px;
