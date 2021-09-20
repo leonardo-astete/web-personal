@@ -22,6 +22,15 @@
   width: 100%;
   article {
     width: 50%;
+    h1 {
+      justify-content: flex-start;
+      margin-bottom: 2px;
+      color: $color-primary;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 30px;
+      text-align: left;
+    }
     h3 {
       justify-content: flex-start;
       margin-bottom: 2px;

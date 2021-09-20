@@ -184,6 +184,14 @@ header {
   width: 100%; }
   .informacionDetalle article {
     width: 50%; }
+    .informacionDetalle article h1 {
+      justify-content: flex-start;
+      margin-bottom: 2px;
+      color: #000000;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 30px;
+      text-align: left; }
     .informacionDetalle article h3 {
       justify-content: flex-start;
       margin-bottom: 2px;
@@ -198,6 +206,20 @@ header {
       font-size: 16px;
       font-weight: 300;
       line-height: 20px; }
+
+.portfolioH1 {
+  width: 300px;
+  margin: 120px auto;
+  color: #000000; }
+  .portfolioH1 h1 {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 100px;
+    text-align: center; }
 
 .portfolioIndex {
   display: flex;
@@ -310,18 +332,28 @@ p {
   opacity: 1;
   transition: opacity 1ms; }
 
-.skills {
-  width: 600px;
-  margin: 150px auto;
-  color: #000000; }
-  .skills h4 {
+.softwareH1 {
+  width: 300px;
+  margin: 120px auto; }
+  .softwareH1 h1 {
     margin-top: 50px;
     margin-bottom: 80px;
-    color: #8d8d8d;
-    font-size: 16px;
-    font-weight: 300;
+    color: #000000;
+    font-size: 50px;
+    font-weight: bolder;
     line-height: 20px;
-    margin-bottom: 100px; }
+    margin-bottom: 100px;
+    text-align: center; }
+
+.skills {
+  width: 600px;
+  margin: 120px auto;
+  color: #000000; }
+  .skills h4 {
+    font-size: medium;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 50px; }
   .skills li {
     margin: 20px 0;
     list-style: none; }
@@ -402,6 +434,20 @@ p {
     width: 0%; }
   100% {
     width: 30%; } }
+
+.contactH1 {
+  width: 300px;
+  margin: 120px auto;
+  color: #000000; }
+  .contactH1 h1 {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 100px;
+    text-align: center; }
 
 form {
   margin: auto;
