@@ -1386,7 +1386,7 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    text-align: right;
+    text-align: center;
     list-style: none;
     gap: 20px;
     width: 38%; }
